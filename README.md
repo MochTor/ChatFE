@@ -9,7 +9,7 @@ For any question, write to me.
 
 #ChatFe
 
-
+That's the final project I discussed as part of the final exam for OS course. The goal was to develop a server-client software for a multiuser chat, using POSIX elements such as threads, processes, mutex...
 
 #License
 
