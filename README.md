@@ -11,6 +11,17 @@ For any question, write to me.
 
 That's the final project I discussed as part of the final exam for OS course. The goal was to develop a server-client software for a multiuser chat, using POSIX elements such as threads, processes, mutex...
 
+#Compiling
+
+To compile all necessary files, you need to go into the main directory and run:
+- 'make': compiles all executables
+- 'make install': moves the executables into the folder src
+- 'make clean': removes all executables
+
+#Usage
+- './server user_file.txt log_file.txt': runs the server program. It needs a user_file to read/save users, and a log_file to save all logs created during its execution.
+- './client username': runs the client program. It needs a username of a already registered user. For full client program usage type -h option.
+
 #License
 
 This is free and unencumbered software released into the public domain.
